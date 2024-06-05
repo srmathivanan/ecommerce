@@ -1,0 +1,9 @@
+<div class="main-container">
+  <div class="header-container-page">
+    <sm-software-solutions-header (setSelectedPage)="onSetSelectedPage($event)"></sm-software-solutions-header>
+  </div>
+  <div class="content-container-page">
+    <sm-software-solutions-contents [selectedPage]="selectedPageName"></sm-software-solutions-contents>
+  </div>
+</div>
+

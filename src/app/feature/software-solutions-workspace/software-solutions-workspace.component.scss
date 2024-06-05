@@ -1,0 +1,25 @@
+:host {
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+    min-height: 90vh;
+    overflow: hidden;
+    
+    .header-containter-page {
+      height: 20vh;
+      overflow: hidden;
+    }
+  
+    .content-container-page {
+      background: url('/assets/images/background.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-blend-mode: lighten;
+
+      height: 80vh;
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+  }
+}

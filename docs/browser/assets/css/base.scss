@@ -1,0 +1,26 @@
+html, body, ss-app-root {
+    height: 100%;
+    min-height: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    line-height: 1.25em;
+    color: #191717;
+    padding: 0;
+    margin: 0;
+    background-color: #EFEFEF;
+    height: 100%;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+ss-app-root {
+    display: flex;
+    flex-direction: column;
+}

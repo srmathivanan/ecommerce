@@ -1,0 +1,13 @@
+<div class="header-container">
+    <div class="left-content">
+      <span class="title" href="#">SM Software Solutions</span>
+    </div>
+    <div class="right-content">
+      <nav class="navbar">
+        <button class="nav-link" [class.selected]="selectedPage === 'home'" (click)="onPageChange('home')">Home</button>
+        <button class="nav-link" [class.selected]="selectedPage === 'about'" (click)="onPageChange('about')">About</button> 
+        <button class="nav-link" [class.selected]="selectedPage === 'services'" (click)="onPageChange('services')">Services</button>         
+        <button class="nav-link" [class.selected]="selectedPage === 'contact'" (click)="onPageChange('contact')">Contact</button>
+      </nav>
+    </div>
+  </div>

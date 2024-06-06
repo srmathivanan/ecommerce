@@ -97,8 +97,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/assets/images",
-              "src/sm.ico",
-              "src/assets"
+              "src/sm.ico"
             ],
             "styles": [
               "src/styles.scss"
